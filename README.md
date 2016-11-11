@@ -1,37 +1,41 @@
-# A Javascript and CSS Minifier for Sublime Text 2
+# Sublime-Minifier
 
-The plugin supports the [Google Closure Compiler](https://developers.google.com/closure/compiler/) and [UglifyJS](https://github.com/mishoo/UglifyJS) compilers for Javascript minification and [cssminifier](http://www.cssminifier.com/) and [Reducisaurus](http://code.google.com/p/reducisaurus/) for CSS minification.
-
-This module was forked from [JsMinifier](https://github.com/cgutierrez/JsMinifier).
-
-Usage
------
-
-__Windows__ / __Linux__ default key binding:    
-`ctrl + alt + m` - attempts to minify the current buffer and replaces the buffers content    
-`ctrl + alt + shift + m` - attempts to minify the current buffer and saves the output to a separate file.
-
-__MacOSX__ default key binding:    
-`⌘ + alt + m` - attempts to minify the current buffer and replaces the buffers content    
-`⌘ + alt + shift + m` - attempts to minify the current buffer and saves the output to a separate file.
+>  JavaScript和CSS压缩插件，支持Linux、macOS和Windows系统。
 
 
-Installation
-------------
-<!---
-**With the Package Control plugin:** The easiest way to install SublimeCodeIntel is through Package Control, which can be found at this site: http://wbond.net/sublime_packages/package_control
 
-Once you install Package Control, restart Sublime Text 2 and bring up the Command Palette (``Command+Shift+P`` on OS X, ``Control+Shift+P`` on Linux/Windows). Select "Package Control: Install Package", wait while Package Control fetches the latest package list, then select SublimeCodeIntel when the list appears. The advantage of using this method is that Package Control will automatically keep SublimeCodeIntel up to date with the latest version.
--->
+**git 安装** 
 
-**Without Git:** Download the latest source from [GitHub](https://github.com/bistory/Sublime-Minifier) and copy the whole directory into the Packages directory. Make sure folder name is "Minifier".
+```git
+git clone https://github.com/gqzydh/Sublime-Minifier.git  
+```
 
-**With Git:** Clone the repository in your Sublime Text 2 Packages directory, located somewhere in user's "Home" directory:
+通过sublime 中Browse PacKages菜单查看
 
-    `git clone git://github.com/bistory/Sublime-Minifier.git`
+```git
+~/.config/sublime-text-3/Packages
+```
+
+把插件移动到插件目录，并改名为Minifier
+
+```git
+mv Sublime-Minifier ~/.config/sublime-text-3/Packages/Minifier
+```
+
+**快捷键**
+
+```sublime
+Windows/Linux:
+	ctrl + alt + m - 压缩当前文件
+	ctrl + alt + shift + m - 压缩并保存到另一个文件
+MacOSX:
+	⌘ + alt + m
+	⌘ + alt + shift + m
+```
 
 
-The "Packages" packages directory is located at:
+
+**安装位置** 
 
 * OS X:
 
